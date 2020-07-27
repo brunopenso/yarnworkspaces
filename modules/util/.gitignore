@@ -1,7 +1,0 @@
-.yarn/**
-!.yarn/releases
-!.yarn/plugins
-.pnp.*
-.env
-.DS_STORE
-node_modules

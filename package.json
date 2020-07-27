@@ -1,15 +1,12 @@
 {
-    "name": "meu-yarn",
-    "author": "",
-    "license": "MIT",
-    "private": true,
-    "workspaces": [
-        "modules/*"
-    ],
-    "devDependencies": {
-        "eslint": "^7.4.0",
-        "eslint-config-prettier": "^6.11.0",
-        "eslint-plugin-prettier": "^3.1.4",
-        "prettier": "^2.0.5"
-      }
+  "name": "yarnworkspaces",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/brunopenso/yarnworkspaces.git",
+  "author": "Bruno Fuzetti Penso <bruno.penso@gmail.com>",
+  "license": "MIT",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ]
 }

@@ -1,11 +1,13 @@
 {
-  "name": "util",
+  "name": "shared",
+  "version": "1.0.0",
   "main": "index.js",
+  "license": "MIT",
   "scripts": {
-    "test": "jest"
+    "test": "jest --runInBand"
   },
   "dependencies": {
-    "uuid4": "^2.0.2"
+    "uuidv4": "^6.2.0"
   },
   "devDependencies": {
     "jest": "^26.1.0"
